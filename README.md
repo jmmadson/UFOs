@@ -22,7 +22,7 @@ When they are ready to search for existing information, visitors can use the fil
 <li>Hit Enter or Tab on the keyboard to see filtering based on that first input</li>
 <li>Enter additional filtering information in any of the other fields (Date, City, State, Country and/or Shape)</li>
 <li>Hit Enter or Tab on the keyboard after each filter input</li>
-<li>Your filtered data will display after each input.</li>
+<li>Your filtered data will display after each input</li>
 </ol>
 
 The following screenshot shows an example of filtering by date and country and the results that appear. 
@@ -33,12 +33,12 @@ To clear the table, either click "UFO Sightings" in the upper left-hand corner o
 
 ## Summary: 
 
-The filters we've created allow users to manipulate and make sense of a lot of data, in manageable filtered subsets. There are however some drawbacks to the way it was designed in that it is not explicitly laid out how to use the filtering tool. Additionally as the filter is case senstive, you may finds yourself getting zero results if you for example, capitalize the Country. 
+The filters we've created allow users to manipulate and make sense of a lot of data, in manageable filtered subsets. There are however some drawbacks to the way it was designed in that it is not explicitly laid out how to use the filtering tool. Additionally as the filter is case senstive, you may find yourself getting zero results if you for example, capitalize the Country. 
 
-Some additional updates we could make to this tool to improve the functionality and user experience include: 
+Some additional updates we could make to this app to improve the functionality and user experience include: 
 <ul>
-<li>Directions: As it exists, there are no instructions for how to use the filtering on the page. While it is pretty self-evident - some simple written instructions regarding using multiple filters and how to clear the filters would make it a more user friendly experience.</li>
-<li>Clear Search: We could add a Clear Filters button to clear out the filters so that a user doesn't have to erase all of their inputs or know that clicking on the "UFO Sightings" headline clears the data</li>
-<li>Better filtering using RegEx: right now the search is an exact match, so if a user uses a capital letter for US, they will get no results. We can use regular expressions to better validate the user input and return like results.</li>
+<li>Directions: As it exists, there are no instructions for how to use the filtering on the page. While it is pretty self-evident having some simple written instructions regarding using multiple filters and how to clear the filters would make it a more user friendly experience.</li>
+<li>Clear Search: We could add a "Clear Filters" button to clear out the filters so that a user doesn't have to erase all of their inputs or know that clicking on the "UFO Sightings" headline clears the data.</li>
+<li>Better filtering using RegEx: Right now the search is an exact match, so if a user uses a capital letter for US, they will get no results. We can use regular expressions to better validate the user input and return like results.</li>
 <li>Save or Share: Right now, the user can filter the data, but not save or share without manually copying it out of the page. We could modify the app create custom URls with the filtered search to allow for easy digital sharing and/or allow users to download a csv of filtered data for the same purpose.</li>
 </ul>
