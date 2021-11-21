@@ -6,13 +6,13 @@ var tbody = d3.select("tbody");
 
 // Creating new function
 function buildTable(data) {
-      // First, clear out any existing data
-    tbody.html("");
-}
+  // First, clear out any existing data
+  tbody.html("");
 
   // Next, loop through each object in the data
   // and append a row and cells for each value in the row
-data.forEach((dataRow) => {
+  data.forEach((dataRow) => {
+    // Append a row to the table body
     let row = tbody.append("tr");
 
     // Loop through each field in the dataRow and add
@@ -23,8 +23,8 @@ data.forEach((dataRow) => {
       }
     );
   });
+}
 
-  // New function for handling user click of filter button
   function handleClick() {
     // Grab the datetime value from the filter
     let date = d3.select("#datetime").property("value");
@@ -36,16 +36,16 @@ data.forEach((dataRow) => {
       // Apply `filter` to the table data to only keep the
       // rows where the `datetime` value matches the filter value
       filteredData = filteredData.filter(row => row.datetime === date);
-    };
+    }
   
      // Rebuild the table using the filtered data
     // @NOTE: If no date was entered, then filteredData will
     // just be the original tableData.
     buildTable(filteredData);
-  };
+  }
   
-    // Attach an event to listen for the form button
-    d3.selectAll("#filter-btn").on("click", handleClick);
-
-    // Build the table when the page loads
-    buildTable(tableData);
+  // Attach an event to listen for the form button
+  d3.selectAll("#filter-btn").on("click", handleClick);
+  
+  // Build the table when the page loads
+  buildTable(tableData);
