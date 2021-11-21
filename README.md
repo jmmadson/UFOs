@@ -2,12 +2,12 @@
 
 ## Overview of Project: 
 
-The purpose of this project was for me to help Data Journalist Dana write about UFO sightings using sighting data. Her hometown of McMinnville, Oregon is well known for sightings of Unidentified Flying Objects (UFOs) so she wants to share this information with the data science world. She has a JavaScript file full of sighting information from all around the world. She wants to display that information in a filterable table to allow users to find specific information about sightings based on Country, State, City, Shape and Occurrence date. 
+The purpose of this project was for me to help Data Journalist, Dana, write about Unidentified Flying Object (UFO) sightings. Her hometown of McMinnville, Oregon is well known for sightings of UFOs so she wants to share this information with the data science world. She has a JavaScript file full of sighting information from all around the world. She wants to display that information in a filterable table to allow users to find specific information about sightings based on Country, State, City, Shape and Occurrence date. 
 
 ## Results:
 
 When someone comes to the page we've built together, there are few things they can do. Initially they can learn why the page exists. 
-Dana has written an insightful summary from Ufologist to introduce the site visitors to the information they can get through. 
+Dana has written an insightful summary with information from a Ufologist to introduce the site visitors to some philosophical questions about extraterrestrial life and the information of sightings they can filter through.
 
 That information can be seen above the table in the screenshot below: 
 ![Website Screenshot](https://github.com/jmmadson/UFOs/blob/main/static/images/web_screenshot.png?raw=true)
