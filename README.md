@@ -15,6 +15,8 @@ That information can be seen above the table in the screenshot below:
 When they are ready to search for existing information, visitors can use the filtering form we've set up on the left-hand side of the page as highlighted in the image below.
 
 ![Filter Options](https://github.com/jmmadson/UFOs/blob/main/static/images/Filters.png?raw=true)
+
+<h3>How to Filter UFO Sighting Data</h3>
 <ol>
 <li>Enter information (in the format shown with in the field) that they would like to filter on</li>
 <li>Hit Enter or Tab on the keyboard</li>
